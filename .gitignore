@@ -1,0 +1,43 @@
+# Node / Next.js
+node_modules/
+.next/
+.out/
+dist/
+.turbo/
+.vercel/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytype/
+.mypy_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Data/model (uncomment if large or private)
+# data/*.csv
+# data/**/*.csv
+# *.joblib
+# *.pkl
+
+# Frontend build cache
+*.cache/
