@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fdmMiniAQI
+    env: python
+    plan: free
+    buildCommand: "pip install -r app/requirements.txt"
+    startCommand: "cd app && uvicorn model_api:app --host 0.0.0.0 --port 10000"
